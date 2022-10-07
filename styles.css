@@ -2,8 +2,7 @@
 /* Raleway 700 */
 
 
-*{
-    /* outline: 2px solid green; */
+/* *{
     box-sizing: border-box;
 }
 
@@ -64,7 +63,7 @@ img{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    }
+    } */
 
 .list{
     list-style: none;
@@ -582,7 +581,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    text-transform: none
+    text-transform: none;
+    color: var(--title-test-color);
 }
 
 .portfolio-list{
