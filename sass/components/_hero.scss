@@ -1,4 +1,4 @@
-/* Hero */
+
 .hero{
     max-width: 1600px;
     height: 600px;
@@ -12,8 +12,8 @@
     padding-top: 200px;
     padding-bottom: 200px;
     margin: 0 auto;
-}
-.hero-titel{
+
+    &__titel{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -21,4 +21,5 @@
     letter-spacing: 0.06em;
     text-transform: uppercase; 
     padding-bottom: 30px;
+}
 }

@@ -67,13 +67,10 @@ img {
 .logo {
   color: #000000;
 }
-
-.logo-blue {
+.logo__blue {
   color: #2196F3;
 }
-
-.logo,
-.logo-blue {
+.logo, .logo__blue {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -205,7 +202,6 @@ img {
   fill: var(--primary-acent-color);
 }
 
-/* Hero */
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -220,8 +216,7 @@ img {
   padding-bottom: 200px;
   margin: 0 auto;
 }
-
-.hero-titel {
+.hero__titel {
   color: #FFFFFF;
   font-weight: 900;
   font-size: 44px;
@@ -249,7 +244,7 @@ img {
 
 .features-list,
 .list-work,
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,31 +326,27 @@ img {
   padding-top: 0;
 }
 
-.section-team {
+.team {
   background-color: #F5F4FA;
   padding-bottom: 94px;
 }
-
-.team-list {
+.team__list {
   text-align: center;
 }
-
-.team-cards {
+.team__cards {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--hero-titel-color);
 }
-
-.team-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-transform: none;
 }
-
-.team-job {
+.team__job {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -363,8 +354,7 @@ img {
   margin-top: 10px;
   padding-bottom: 16px;
 }
-
-.team-list-name {
+.team__list-name {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -842,7 +832,6 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .form-button:hover,
@@ -877,10 +866,6 @@ img {
   fill: var(--primary-acent-color);
 }
 
-/* .accept{
-    display: flex;
-  align-items: center;
-} */
 .label-chexbox {
   display: -webkit-box;
   display: -ms-flexbox;

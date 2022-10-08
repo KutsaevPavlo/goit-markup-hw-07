@@ -144,7 +144,6 @@ color: var(--primary-acent-color);
     margin-right: 124px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .form-button:hover,
@@ -186,11 +185,6 @@ color: var(--primary-acent-color);
 
 }
 
-
-/* .accept{
-    display: flex;
-  align-items: center;
-} */
 
 .label-chexbox{
     display: flex;
