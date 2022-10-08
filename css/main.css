@@ -368,8 +368,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.social-links-cirl {
+.social-links__cirl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,8 +381,7 @@ img {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-links-icons {
+.social-links__icons {
   fill: #AFB1B8;
   width: 20px;
   height: 20px;
@@ -391,15 +389,11 @@ img {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-links-cirl:hover,
-.social-links-cirl:focus {
+.social-links__cirl:hover, .social-links__cirl:focus {
   fill: var(--hero-titel-color);
   background-color: var(--primary-acent-color);
 }
-
-.social-links-cirl:hover svg,
-.social-links-cirl:focus svg {
+.social-links__cirl:hover svg, .social-links__cirl:focus svg {
   fill: var(--hero-titel-color);
 }
 
