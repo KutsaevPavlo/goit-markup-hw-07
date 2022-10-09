@@ -76,10 +76,10 @@ img {
   color: #2196F3;
 }
 .logo, .logo__blue {
-  font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
+  font-family: "Raleway";
   text-decoration: none;
 }
 
@@ -217,10 +217,10 @@ img {
   margin: 0 auto;
 }
 .hero__titel {
-  color: #FFFFFF;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
+  color: #FFFFFF;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
@@ -266,8 +266,8 @@ img {
 
 .section-titel {
   color: var(--section-titel-color);
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;

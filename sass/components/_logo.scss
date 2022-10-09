@@ -8,10 +8,8 @@
 
 &,
 &__blue {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+     @include font(26px, 700, 1.2);    
+     font-family: 'Raleway';   
     text-decoration: none;
 }
 }

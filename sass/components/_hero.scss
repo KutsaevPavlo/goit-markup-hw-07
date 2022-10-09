@@ -14,10 +14,9 @@
     margin: 0 auto;
 
     &__titel{
+    @include font(44px, 900, 1.36);  
+      
     color: #FFFFFF;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
     padding-bottom: 30px;
