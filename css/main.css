@@ -501,16 +501,16 @@ img {
   margin-left: 70px;
 }
 
-.social-links-footer .social-links-cirl {
+.social-links-footer .social-links__cirl {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.social-links-footer .social-links-icons {
+.social-links-footer .social-links__icons {
   fill: var(--hero-titel-color);
 }
 
-.social-links-footer .social-links-cirl:hover,
-.social-links-footer .social-links-cirl:focus {
+.social-links-footer .social-links__cirl:hover,
+.social-links-footer .social-links__cirl:focus {
   background: var(--primary-acent-color);
 }
 
