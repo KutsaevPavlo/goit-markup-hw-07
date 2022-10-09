@@ -206,8 +206,8 @@ img {
   max-width: 1600px;
   height: 600px;
   background-color: #2F303A;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--bghero)), to(var(--bghero))), url(../../images/background.jpg);
-  background-image: linear-gradient(to right, var(--bghero), var(--bghero)), url(../../images/background.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--bghero)), to(var(--bghero))), url(../images/background.jpg);
+  background-image: linear-gradient(to right, var(--bghero), var(--bghero)), url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1600px;
