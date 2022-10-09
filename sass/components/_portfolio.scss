@@ -14,7 +14,7 @@
 /* Button-portfolio */
 
 .button{
-    color: var(--section-titel-color);
+    color: getColor('section-titel-color');
     background-color: #F5F4FA;
     display: inline-block;
     padding: 12px 24px;
@@ -26,22 +26,22 @@
     letter-spacing: 0.06em;
     border: 2px;
     border-radius: 4px;
-    border-color: var(--primary-acent-color);
+    border-color: getColor('primary-acent-color');
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 
 }
 .button.primary{
-    color: var(--primary-acent-color);
-    background-color: var(--hero-titel-color);
+    color: getColor('primary-acent-color');
+    background-color: getColor('hero-titel-color');
 }
 .button.secondary{
-    color: var(--hero-titel-color);
-    background-color: var(--primary-acent-color);
+    color: getColor('hero-titel-color');
+    background-color: getColor('primary-acent-color');
     border: 2px;
     border-radius: 4px;
-    border-color: var(--primary-acent-color);
+    border-color: getColor('primary-acent-color');
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

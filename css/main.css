@@ -532,7 +532,7 @@ img {
 
 /* Button-portfolio */
 .button {
-  color: var(--section-titel-color);
+  color: #000000;
   background-color: #F5F4FA;
   display: inline-block;
   padding: 12px 24px;
@@ -544,7 +544,7 @@ img {
   letter-spacing: 0.06em;
   border: 2px;
   border-radius: 4px;
-  border-color: var(--primary-acent-color);
+  border-color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -552,16 +552,16 @@ img {
 }
 
 .button.primary {
-  color: var(--primary-acent-color);
-  background-color: var(--hero-titel-color);
+  color: #2196F3;
+  background-color: #FFFFFF;
 }
 
 .button.secondary {
-  color: var(--hero-titel-color);
-  background-color: var(--primary-acent-color);
+  color: #FFFFFF;
+  background-color: #2196F3;
   border: 2px;
   border-radius: 4px;
-  border-color: var(--primary-acent-color);
+  border-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -711,7 +711,7 @@ img {
           transform: translate(-50%, -50%) scale(1);
   width: 528px;
   height: 581px;
-  background-color: var(--hero-titel-color);
+  background-color: #FFFFFF;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -724,7 +724,7 @@ img {
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03em;
-  color: var(--primary-link-color);
+  color: #212121;
   margin: 40px 40px 12px 40px;
 }
 
@@ -749,7 +749,7 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: var(--title-test-color);
+  color: #757575;
 }
 
 .form-element input {
@@ -785,7 +785,7 @@ img {
 .form-element textarea:focus,
 .footer-element input:hover,
 .footer-element input:focus {
-  border-color: var(--primary-acent-color);
+  border-color: #2196F3;
 }
 
 .accept {
@@ -798,20 +798,20 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--title-test-color);
+  color: #757575;
 }
 
 .accept-link {
-  color: var(--primary-acent-color);
+  color: #2196F3;
 }
 
 .form-button {
   width: 200px;
   height: 50px;
-  color: var(--hero-titel-color);
+  color: #FFFFFF;
   background-color: #2196F3;
   border-radius: 4px;
-  border-color: var(--primary-acent-color);
+  border-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -833,7 +833,7 @@ img {
 .form-button:focus,
 .footer-button:hover,
 .footer-button:focus {
-  color: var(--section-titel-color);
+  color: #000000;
   background-color: #F5F4FA;
   border-color: #F5F4FA;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -858,7 +858,7 @@ img {
 
 .form-element input:hover + svg,
 .form-element input:focus + svg {
-  fill: var(--primary-acent-color);
+  fill: #2196F3;
 }
 
 .label-chexbox {
@@ -887,8 +887,8 @@ img {
 }
 
 .accept input:checked + label .checkbox {
-  background: var(--primary-acent-color);
-  border: 2px solid var(--primary-acent-color);
+  background: #2196F3;
+  border: 2px solid #2196F3;
 }
 
 /* Close */
@@ -896,7 +896,7 @@ img {
   margin: auto;
   width: 18px;
   height: 18px;
-  fill: var(--section-titel-color);
+  fill: #000000;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -920,7 +920,7 @@ img {
 
 .button-close:hover svg,
 .button-close:focus svg {
-  fill: var(--primary-acent-color);
+  fill: #2196F3;
 }
 
 .footer-form {

@@ -22,3 +22,19 @@ body {
     letter-spacing: 0.03em;
 }
 
+
+
+$colors: (
+    'primary-acent-color': #2196F3,
+    'title-test-color': #757575,
+    'section-titel-color': #000000,
+    'primary-link-color': #212121,
+    'hero-titel-color': #FFFFFF,
+    'link-footer-color': rgba(255, 255, 255, 0.6)
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+  }
+
+ 
